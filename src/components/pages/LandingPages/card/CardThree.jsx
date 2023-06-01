@@ -16,7 +16,7 @@ const CardThree = () => {
                 </div>
             </div>
         </div>
-        <div className=' hidden md:block mt-24 w-full h-[400px] bg-center bg-cover' style={{backgroundImage: `url(https://sites.georgetown.edu/missionandministry/wp-content/uploads/sites/21/2019/06/Ignatius-Window-for-OMM-Website-e1560353892811-1024x540.jpg)`}} >
+        <div className=' hidden md:block mt-24 w-full h-[600px] bg-center bg-cover' style={{backgroundImage: `url(https://sites.georgetown.edu/missionandministry/wp-content/uploads/sites/21/2019/06/Ignatius-Window-for-OMM-Website-e1560353892811-1024x540.jpg)`}} >
             <div className='px-28 pt-5'>
                     <h5 className='text-white'>STAY IN TOUCH</h5>
                     <h1 className='text-white font-bold'>Join Our Newsletter</h1>
