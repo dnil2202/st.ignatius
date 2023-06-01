@@ -12,6 +12,7 @@ const FooterWeb = () => {
                     <Image 
                     src={logo}
                     className='w-24 h-24 lg:w-44 lg:h-44'
+                    alt='logo'
                     />
                     <div className='flex justify-center mt-4 ml-2 lg:mt-8'>
                         <div>

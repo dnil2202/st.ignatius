@@ -49,6 +49,7 @@ const NavbarMobile = () => {
           <Image
           src={logo}
           height={70}
+          alt='logo'
           />
           <div>
           <h4 className='bg-dark-blue text-transparent font-extrabold bg-clip-text'>St.Ignatius</h4>

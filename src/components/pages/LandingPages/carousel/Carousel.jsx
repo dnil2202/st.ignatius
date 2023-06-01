@@ -37,6 +37,7 @@ const Carousel = () => {
                     <img
                     src={item}
                     className='w-full h-full'
+                    alt='st.ig'
                     />
                 </div>
 

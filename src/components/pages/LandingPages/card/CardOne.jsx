@@ -24,6 +24,7 @@ const CardOne = () => {
               <img 
               src='https://katedralbandung.org/wp-content/uploads/2022/02/test-297-1536x943.jpg'
               className='w-full h-full'
+              alt='st.ig'
               />
             </div>
           </div>
