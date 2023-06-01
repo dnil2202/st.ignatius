@@ -34,14 +34,14 @@ const NavbarMobile = () => {
       <ul className={`${openMenu?'absolute z-10':'hidden'} top-[50px]  bg-dark-blue w-full`}>
         {
           navMenu.map((item,index)=>
-          <>
+          <div key={index}>
           <li 
           key={index}
           className='text-center border-b border-white text-white hover:text-gold py-3'
           >
             {item}
           </li>
-          </>
+          </div>
           )
         }
       </ul>

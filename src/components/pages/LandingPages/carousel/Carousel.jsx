@@ -13,7 +13,6 @@ import { dataImages } from './data';
 
 const Carousel = () => {
   return (
-    <>
     <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -46,7 +45,6 @@ const Carousel = () => {
             )
         }
       </Swiper>
-    </>
   )
 }
 
