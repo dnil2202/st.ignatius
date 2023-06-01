@@ -18,10 +18,10 @@ const Layouts = ({children}) => {
             {children}
         </div>
         :
-        <div>
+        <>
         {children}
         <FooterWeb/>
-        </div>
+        </>
         }
 
     </Fragment>

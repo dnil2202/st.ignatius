@@ -30,9 +30,8 @@ const Carousel = () => {
       >
         {
             dataImages.map((item,index)=>
-            <SwiperSlide>
+            <SwiperSlide key={index}>
                 <div 
-                key={index}
                 className='w-full h-72 md:h-[700px] '
                 >
                     <img

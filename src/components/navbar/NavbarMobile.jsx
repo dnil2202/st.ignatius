@@ -35,8 +35,7 @@ const NavbarMobile = () => {
         {
           navMenu.map((item,index)=>
           <div key={index}>
-          <li 
-          key={index}
+          <li
           className='text-center border-b border-white text-white hover:text-gold py-3'
           >
             {item}
