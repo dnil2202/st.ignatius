@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
     <Head>
       <title>St. Ignatius</title>
       <meta name='description' content='go to church' />
-      <link rel='icon' href={logo} />
+      <link rel='icon' href='/favicon.ico' />
     </Head>
     <Layouts>
       <Component {...pageProps} />
